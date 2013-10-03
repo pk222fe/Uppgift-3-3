@@ -6,8 +6,16 @@
 }
 
 #topbar {
+	height: 260px;
+	padding-top: 5px;
+	text-align: right;
+	color: #EAE7D2;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-style: italic;
 	background-image: url("pics/coffey.jpg");
-	height: 200px;
+	background-repeat: no-repeat;
+	background-position: 0px 22px;
 }
 
 
