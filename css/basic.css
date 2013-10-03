@@ -1,42 +1,42 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 #container {
 	margin: 0 auto;
-	width: 900px;
+	width: 600px;
+	background: #51473D;
 }
 
 #topbar {
-	padding: 20px;
+	background-image: url("pics/coffey.jpg");
+	height: 200px;
 }
+
 
 #menu
 {
 	float: left;
-	width: 900px;
-}
-
-#content-container {
-	float: left;
-	width: 900px;
+	width: 100%;
 }
 
 #maincontent {
+    background: #EAE7D2;
 	clear: left;
 	float: left;
-	width: 560px;
+	width: 60%;
 	padding: 20px 0;
 	margin: 0 0 0 30px;
 	display: inline;
 }
 
-
 #subcontent {
+    background: #EAE7D2;
 	float: right;
-	width: 240px;
+	width: 30%;
 	padding: 20px 0;
 	margin: 0 20px 0 0;
 	display: inline;
 }
 
 #bottomcontent {
-	height: 1%;
+    background: #EAE7D2;
+	height: auto;
 }
