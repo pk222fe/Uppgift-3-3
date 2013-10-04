@@ -38,6 +38,7 @@
 #menu ul li {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 14px;
+    font-weight: lighter;
     text-transform: capitalize;
     display: block;
     position: relative;
@@ -66,22 +67,37 @@
     background: #EAE7D2;
     color: #797066;
 }
- 
 
 #maincontent {
     background: #EAE7D2;
 	clear: left;
 	float: left;
-	width: 60%;
+	width: 55%;
 	padding: 0 0;
 	margin: 0 0 0 30px;
 	display: inline;
+	color: #797066;
 }
+
+#maincontent h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+}
+#maincontent p {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+}
+#maincontent img[alt] {
+    float: left;
+    border: solid 3px #EAE7D2;
+}
+
 
 #subcontent {
     background: #EAE7D2;
 	float: right;
-	width: 30%;
+	width: 35%;
 	padding: 20px 0;
 	margin: 0 20px 0 0;
 	display: inline;
