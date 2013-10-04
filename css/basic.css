@@ -83,11 +83,14 @@
 #maincontent h1 {
     font-family: "Times New Roman", Times, serif;
     font-weight: normal;
+    margin-bottom: 0;
+    padding-bottom: 15px;
 }
 #maincontent p {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 12px;
     line-height: 22px;
+    margin-top: 0;
 }
 #maincontent img[alt] {
     float: left;
@@ -136,6 +139,9 @@
     color: #797066;
     font-family: Verdana, Geneva, sans-serif;
     font-size: 15px;
+}
+#maincontent h1, #maincontent p{
+    border-right: dashed 1px #C0C0C0;
 }
 
 #bottomcontent {
