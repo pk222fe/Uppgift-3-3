@@ -6,7 +6,7 @@
 }
 
 #topbar {
-	height: 260px;
+	height: 220px;
 	padding-top: 5px;
 	text-align: right;
 	color: #EAE7D2;
@@ -15,22 +15,65 @@
 	font-style: italic;
 	background-image: url("pics/coffey.jpg");
 	background-repeat: no-repeat;
-	background-position: 0px 22px;
+	background-position: 0 22px;
 }
 
 
-#menu
-{
-	float: left;
-	width: 100%;
+#menu {
+  background-color:#51473D;
+  height:40px;
 }
+
+#menu a {
+    display: none;
+}
+ 
+#menu ul {
+  margin: 0;
+  padding-top: 5px;
+  list-style: none;
+  padding-left: 10px;
+}
+ 
+#menu ul li {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+    display: block;
+    position: relative;
+    float: left;
+ 
+}
+ 
+#menu ul li a {
+    display: block;
+    text-decoration: none;
+    background: #797066;
+    color: #EAE7D2;  
+    margin-left: 1px;
+    height: 25px;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align:center;
+    padding-top:10px;
+}
+ 
+#menu ul li a:hover { 
+    background: #9C9084; 
+}
+#menu .active a {
+    background: #EAE7D2;
+    color: #797066;
+}
+ 
 
 #maincontent {
     background: #EAE7D2;
 	clear: left;
 	float: left;
 	width: 60%;
-	padding: 20px 0;
+	padding: 0 0;
 	margin: 0 0 0 30px;
 	display: inline;
 }
